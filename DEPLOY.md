@@ -1,6 +1,6 @@
 # 部署指南 · 1500 米之后
 
-> 当前线上地址：<https://berrr-star.github.io/1500m-after/>（GitHub Pages，仓库 <https://github.com/berrr-star/1500m-after>）。日常更新在该仓库 `main` 分支 push 即可自动重新部署。
+> 当前线上地址：<https://berrr-star.github.io/>（GitHub Pages 用户主页仓库 <https://github.com/berrr-star/berrr-star.github.io>）。日常更新在该仓库 `main` 分支 push 即可自动重新部署。
 
 站点是**纯静态**页面：没有后端、没有数据库、没有构建步骤，所有资源都是本地相对路径。把 `portfolio/` 里的文件原样放到任意静态托管上即可。
 

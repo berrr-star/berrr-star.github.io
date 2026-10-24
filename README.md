@@ -1,6 +1,6 @@
 # 1500 米之后 · 个人主页
 
-线上地址：<https://berrr-star.github.io/1500m-after/> （GitHub Pages，仓库：<https://github.com/berrr-star/1500m-after>）
+线上地址：<https://berrr-star.github.io/> （GitHub Pages，仓库：<https://github.com/berrr-star/berrr-star.github.io>）
 
 一个带手写 3D 首屏的静态个人网站。蓝色电光底 + 一个微笑的 3D 少年 + 三条可交互的导航按钮。
 
