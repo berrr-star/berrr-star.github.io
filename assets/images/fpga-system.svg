@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">FPGA智能洗衣机控制系统示意图</title>
+  <desc id="desc">重量和水位传感器输入Xilinx FPGA，核心控制逻辑驱动电机与电磁阀，实现自动称重和洗涤模式调整。</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="14" stdDeviation="22" flood-color="#1C1C1C" flood-opacity=".07"/></filter>
+    <style>
+      .bg{fill:#fbfbfb}.card{fill:#fff;stroke:#e3e3e3;stroke-width:2}.ink{fill:#1c1c1c}.muted{fill:#8b8b8b}.line{stroke:#b9b9b9;stroke-width:3;fill:none}.accent{stroke:#00a6c7;fill:none;stroke-width:4}.label{font:600 23px -apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif;fill:#1c1c1c}.small{font:400 18px -apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif;fill:#8b8b8b}.step{font:600 16px -apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif;fill:#00a6c7;letter-spacing:2px}
+    </style>
+  </defs>
+  <rect width="1200" height="760" rx="36" class="bg"/>
+  <text x="70" y="82" class="step">SYSTEM / 示意图</text>
+  <text x="70" y="132" class="label" style="font-size:32px">从传感器输入，到洗涤控制。</text>
+  <g filter="url(#shadow)">
+    <rect x="70" y="216" width="250" height="132" rx="22" class="card"/>
+    <rect x="70" y="400" width="250" height="132" rx="22" class="card"/>
+    <rect x="454" y="250" width="292" height="250" rx="28" class="card"/>
+    <rect x="880" y="216" width="250" height="132" rx="22" class="card"/>
+    <rect x="880" y="400" width="250" height="132" rx="22" class="card"/>
+  </g>
+  <text x="100" y="264" class="small">INPUT 01</text><text x="100" y="310" class="label">重量传感器</text>
+  <text x="100" y="448" class="small">INPUT 02</text><text x="100" y="494" class="label">水位传感器</text>
+  <text x="910" y="264" class="small">OUTPUT 01</text><text x="910" y="310" class="label">电机</text>
+  <text x="910" y="448" class="small">OUTPUT 02</text><text x="910" y="494" class="label">电磁阀</text>
+  <path d="M320 282h70q34 0 54 28l24 32M320 466h70q34 0 54-28l24-32M760 342l24-32q20-28 54-28h42M760 408l24 32q20 26 54 26h42" class="line"/>
+  <path d="M402 328l16 14-20 7M402 415l16-14-20-7M790 328l20-7-16 14M790 415l20 7-16-14" class="accent"/>
+  <rect x="494" y="290" width="212" height="58" rx="12" fill="#1c1c1c"/>
+  <text x="600" y="329" text-anchor="middle" style="font:600 24px -apple-system,BlinkMacSystemFont,'PingFang SC',sans-serif;fill:#fff">Xilinx FPGA</text>
+  <text x="600" y="398" text-anchor="middle" class="label">Verilog HDL</text>
+  <text x="600" y="438" text-anchor="middle" class="small">状态机／时序优化</text>
+  <rect x="70" y="610" width="1060" height="70" rx="20" fill="#f0f0f0"/>
+  <text x="100" y="655" class="label">自动称重</text>
+  <circle cx="260" cy="642" r="5" fill="#00a6c7"/>
+  <text x="292" y="655" class="label">模式自适应</text>
+  <circle cx="492" cy="642" r="5" fill="#00a6c7"/>
+  <text x="524" y="655" class="label">软硬件协同</text>
+  <text x="1090" y="655" text-anchor="end" class="small">控制逻辑示意</text>
+</svg>
