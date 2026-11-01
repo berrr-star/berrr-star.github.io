@@ -285,24 +285,25 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible {
 .work-card-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: clamp(18px, 2.6vw, 36px);
-  margin-top: clamp(48px, 7vw, 86px);
-  padding: 20px 8px 8px;
+  gap: clamp(16px, 2vw, 26px);
+  max-width: 1080px;
+  margin: clamp(38px, 5vw, 62px) auto 0;
+  padding: 16px 4px 4px;
 }
 .work-card {
   position: relative;
   min-width: 0;
-  height: 450px;
+  height: 390px;
   overflow: hidden;
   border: 1px solid rgba(28, 28, 28, .07);
-  border-radius: 28px;
+  border-radius: 24px;
   background: #fff;
   box-shadow: 0 12px 30px rgba(28, 28, 28, .07);
   outline-offset: 6px;
   transition: transform .42s cubic-bezier(.2, .8, .2, 1), box-shadow .42s ease;
 }
 .work-card-media {
-  height: 215px;
+  height: 180px;
   overflow: hidden;
   background: var(--panel);
 }
@@ -317,20 +318,20 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible {
 .work-card-green .work-card-media { background: #e6eee8; }
 .work-card-yellow .work-card-media img,
 .work-card-green .work-card-media img { object-fit: contain; padding: 16px; }
-.work-card-body { padding: 24px 26px 28px; }
+.work-card-body { padding: 20px 22px 22px; }
 .work-card-type {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   color: var(--soft);
   font-size: 10px;
   font-weight: 700;
   letter-spacing: .13em;
 }
-.work-card h3 { margin: 0 0 15px; font-size: clamp(25px, 2.4vw, 34px); font-weight: 650; letter-spacing: -.04em; }
-.work-card p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.75; }
+.work-card h3 { margin: 0 0 12px; font-size: clamp(24px, 2vw, 30px); font-weight: 650; letter-spacing: -.04em; }
+.work-card p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.7; }
 .work-card-status {
   display: block;
-  margin-top: 18px;
+  margin-top: 14px;
   color: var(--ink);
   font-size: 11px;
   font-weight: 650;
@@ -341,13 +342,13 @@ a:focus-visible, button:focus-visible, [tabindex]:focus-visible {
   .work-card { cursor: default; }
   .work-card-glass {
     position: absolute;
-    right: 12px;
-    bottom: 12px;
-    left: 12px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
     display: block;
-    height: 156px;
+    height: 138px;
     border: 1px solid rgba(255, 255, 255, .82);
-    border-radius: 22px;
+    border-radius: 20px;
     background: rgba(255, 255, 255, .58);
     box-shadow: 0 8px 24px rgba(28, 28, 28, .06), inset 0 1px 0 rgba(255, 255, 255, .9);
     backdrop-filter: blur(14px);
